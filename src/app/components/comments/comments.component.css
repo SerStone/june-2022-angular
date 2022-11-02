@@ -1,0 +1,14 @@
+.comments{
+  width: 100%;
+  height: auto;
+  background-color: #14bbd9;
+  color: snow;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 10px;
+
+}
