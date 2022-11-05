@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {IComment, IUser} from "../../interfaces";
+import {IComment} from "../../interfaces";
 import {ActivatedRoute, Router} from "@angular/router";
-import {CommentService, UserService} from "../../services";
+import {CommentService} from "../../services";
 
 @Component({
   selector: 'app-comment-details',
