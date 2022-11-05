@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  box-shadow: 8px 5px 5px 5px #727272;
+
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+.active{
+color: cadetblue;
+}
