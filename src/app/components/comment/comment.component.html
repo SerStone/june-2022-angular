@@ -1,6 +1,7 @@
 <div class="comment">
   {{comment.id}}
-  {{comment.email}} --- {{comment.name}}
+  <a routerLink="{{comment.id}}" [state]="comment">  {{comment.email}} --- {{comment.name}}</a>
   <br/>
   {{comment.body}}
+
 </div>
